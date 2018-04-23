@@ -1,0 +1,21 @@
+uuid: 62f2cf1a-f4f6-473d-a472-895681048660
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_director
+    - node.type.peliculas
+id: node.peliculas.field_director
+field_name: field_director
+entity_type: node
+bundle: peliculas
+label: Director
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings: {  }
+field_type: entity_reference

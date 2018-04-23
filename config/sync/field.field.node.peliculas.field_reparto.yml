@@ -1,0 +1,28 @@
+uuid: 26f86688-5d60-44d2-a730-c9d2d87f6344
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reparto
+    - node.type.actor
+    - node.type.peliculas
+id: node.peliculas.field_reparto
+field_name: field_reparto
+entity_type: node
+bundle: peliculas
+label: Reparto
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      actor: actor
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

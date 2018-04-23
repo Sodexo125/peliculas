@@ -1,0 +1,14 @@
+uuid: 2868c949-373e-4acf-949b-c3cff72497da
+langcode: en
+status: true
+dependencies: {  }
+name: destacada
+label: 'block small'
+effects:
+  8ce9867f-079e-4f3e-8d3d-d3abfc0a7e64:
+    uuid: 8ce9867f-079e-4f3e-8d3d-d3abfc0a7e64
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 150
+      height: 200

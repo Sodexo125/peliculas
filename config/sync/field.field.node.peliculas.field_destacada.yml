@@ -1,0 +1,23 @@
+uuid: afb7f086-8334-4e26-9862-65d42e210fd3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_destacada
+    - node.type.peliculas
+id: node.peliculas.field_destacada
+field_name: field_destacada
+entity_type: node
+bundle: peliculas
+label: Destacada
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,21 @@
+uuid: 8967efd1-d763-4463-a4c8-ce0307f30646
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo
+    - node.type.director
+  module:
+    - text
+id: node.director.field_titulo
+field_name: field_titulo
+entity_type: node
+bundle: director
+label: Nacionalidad
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

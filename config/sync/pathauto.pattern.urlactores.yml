@@ -1,0 +1,22 @@
+uuid: 27410ec4-fb25-4d7c-8e4a-bbfd87c98aab
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: urlactores
+label: 'Actor path'
+type: 'canonical_entities:node'
+pattern: 'actor/[node:title]'
+selection_criteria:
+  43cb1ba6-aefd-4713-84fc-32fb76095c0a:
+    id: node_type
+    bundles:
+      actor: actor
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 43cb1ba6-aefd-4713-84fc-32fb76095c0a
+selection_logic: and
+weight: -5
+relationships: {  }

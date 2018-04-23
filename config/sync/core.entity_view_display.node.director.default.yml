@@ -1,0 +1,64 @@
+uuid: 73526b0f-bb45-4aba-87ef-140666350653
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.director.body
+    - field.field.node.director.field_fecha_nacimiento
+    - field.field.node.director.field_nombre
+    - field.field.node.director.field_portada_directores
+    - field.field.node.director.field_titulo
+    - node.type.director
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.director.default
+targetEntityType: node
+bundle: director
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_fecha_nacimiento:
+    weight: 104
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_nombre:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_portada_directores:
+    weight: 105
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_titulo:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

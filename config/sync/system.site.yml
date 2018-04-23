@@ -1,0 +1,14 @@
+uuid: cbaa9a71-8721-467f-a068-4001e2671396
+name: PelisClub
+mail: leandrobelloucr@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /home
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

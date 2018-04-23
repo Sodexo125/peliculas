@@ -1,0 +1,18 @@
+uuid: 6bf82fd8-040c-4d03-970d-1fbdbafbd34d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.peliculas
+id: node.peliculas.title
+field_name: title
+entity_type: node
+bundle: peliculas
+label: Pelicula
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

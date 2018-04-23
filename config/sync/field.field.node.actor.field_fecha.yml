@@ -1,0 +1,21 @@
+uuid: 1b50f0c1-a9a0-43c6-befa-3ef10d3a1e3c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fecha
+    - node.type.actor
+  module:
+    - datetime
+id: node.actor.field_fecha
+field_name: field_fecha
+entity_type: node
+bundle: actor
+label: 'Fecha Nacimiento'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

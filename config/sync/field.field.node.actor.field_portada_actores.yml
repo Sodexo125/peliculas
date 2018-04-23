@@ -1,0 +1,38 @@
+uuid: ad29eaf6-e765-4d04-a3d7-57b6d1cbc3bb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_portada_actores
+    - node.type.actor
+  module:
+    - image
+id: node.actor.field_portada_actores
+field_name: field_portada_actores
+entity_type: node
+bundle: actor
+label: 'Portada Actores'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: '512 KB'
+  max_resolution: 480x480
+  min_resolution: 220x220
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

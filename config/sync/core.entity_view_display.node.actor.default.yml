@@ -1,0 +1,64 @@
+uuid: 88168847-65b0-42a7-964a-aad2ea494ab7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.actor.body
+    - field.field.node.actor.field_fecha
+    - field.field.node.actor.field_nombre
+    - field.field.node.actor.field_portada_actores
+    - field.field.node.actor.field_titulo
+    - node.type.actor
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.actor.default
+targetEntityType: node
+bundle: actor
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_fecha:
+    weight: 104
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_nombre:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_portada_actores:
+    weight: 105
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_titulo:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

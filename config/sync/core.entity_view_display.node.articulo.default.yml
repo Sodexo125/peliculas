@@ -1,0 +1,46 @@
+uuid: 6c13aa04-d8db-46f2-94a5-a55be37afaa0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.articulo.field_clasificacion
+    - field.field.node.articulo.field_cuerpo
+    - field.field.node.articulo.field_imagen
+    - node.type.articulo
+  module:
+    - image
+    - text
+    - user
+id: node.articulo.default
+targetEntityType: node
+bundle: articulo
+mode: default
+content:
+  field_clasificacion:
+    weight: 103
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_cuerpo:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_imagen:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

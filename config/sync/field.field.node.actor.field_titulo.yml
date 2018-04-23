@@ -1,0 +1,21 @@
+uuid: 6e71fe06-f972-4a08-8da5-5d8ffd834c6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo
+    - node.type.actor
+  module:
+    - text
+id: node.actor.field_titulo
+field_name: field_titulo
+entity_type: node
+bundle: actor
+label: Nacionalidad
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,14 @@
+uuid: bf4564b6-91f5-448e-8a92-86b99607da9d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'use text format basic_html'
+  - 'use text format ultra_limited_wysiwyg'

@@ -1,0 +1,23 @@
+uuid: 546459ed-0c8c-4682-b5c9-58192a0c89c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_puntuacion
+    - node.type.peliculas
+id: node.peliculas.field_puntuacion
+field_name: field_puntuacion
+entity_type: node
+bundle: peliculas
+label: Puntuación
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 10
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,14 @@
+uuid: 1d8d5e50-1cf8-4ecc-b824-8248c81b4b30
+langcode: en
+status: true
+dependencies: {  }
+name: 'Basic HTML'
+format: basic_html
+weight: 0
+filters:
+  filter_autop:
+    id: filter_autop
+    provider: filter
+    status: true
+    weight: 0
+    settings: {  }

@@ -1,0 +1,21 @@
+uuid: dffb7011-34bd-4a8c-88c1-32054005a97b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nombre
+    - node.type.actor
+  module:
+    - text
+id: node.actor.field_nombre
+field_name: field_nombre
+entity_type: node
+bundle: actor
+label: Nombre
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

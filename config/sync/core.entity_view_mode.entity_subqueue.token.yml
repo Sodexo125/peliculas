@@ -1,0 +1,10 @@
+uuid: 1cb27def-20ef-4abd-ac7b-334c7e4f532c
+langcode: en
+status: true
+dependencies:
+  module:
+    - entityqueue
+id: entity_subqueue.token
+label: Token
+targetEntityType: entity_subqueue
+cache: true

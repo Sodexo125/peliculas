@@ -1,0 +1,22 @@
+uuid: 93fe2ba8-0840-4cc7-ac34-aa681e0618df
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.actor
+  module:
+    - text
+id: node.actor.body
+field_name: body
+entity_type: node
+bundle: actor
+label: Descripción
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
